@@ -1,0 +1,23 @@
+pytdl - Python support for AbstractSpoon's ToDoList(c)
+
+All trademarks and copyrights are the property of their respective owners.
+
+==Please see:
+http://www.abstractspoon.com/tdl_resources.html
+
+
+==Dependencies / dev tools: 
+
+1. generateDS
+    http://www.rexx.com/~dkuhlman/generateDS.html
+
+2. eGenix.com mx Base Distribution (for COM Date support, maybe removed)
+    http://www.egenix.com/products/python/mxBase/
+
+
+==Acknowledgements:
+
+Thanks to .dan.g. for the tremendous contribution that is ToDoList.
+
+Thanks to Dave Kuhlman (http://www.rexx.com/~dkuhlman/) for generateDS and
+all of his python resources.
