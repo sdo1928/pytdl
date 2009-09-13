@@ -4,8 +4,10 @@ import sys, os
 from todolist_sub import TODOLISTSub as TODOLIST
 from todolist_sub import TASKSub as TASK
 
-newTodolist = TODOLIST()
 
+# attempt to match todolist.exe new file behavior
+#TODOLIST
+newTodolist = TODOLIST()
 
 #newTodolist.set_CATEGORY
 #newTodolist.set_STATUS
@@ -23,12 +25,12 @@ newTodolist.set_NEXTUNIQUEID(2)
 newTodolist.set_FILEFORMAT(9)
 
 
+#TASK
 newTask = TASK()
 PRIORITYCOLOR="15732480"
 PRIORITYWEBCOLOR="#000FF0"
 
 newTask.set_TITLE('Task')
-
 #newTask.set_ALLOCATEDBY
 newTask.set_CALCCOST('0.00000000')
 #newTask.set_CALCPERCENTDONE
@@ -103,14 +105,6 @@ newTask.set_STARTDATESTRING(td.strftime('%m/%d/%Y'))
 #newTask.set_TITLE
 #newTask.set_VERSION
 #newTask.set_WEBCOLOR
-
-
-
-
-
-
-
-
 
 newTodolist.add_TASK(newTask)
 
